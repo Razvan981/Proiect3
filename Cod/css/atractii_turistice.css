@@ -1,0 +1,542 @@
+h4, h5, h6,
+h1, h2, h3 {margin: 0;}
+ul, ol {margin: 0; padding:0;}
+p {margin: 0;}
+html, body{
+	font-family: 'OpenSans-Regular';
+	font-size: 100%;
+	background: #ffffff;
+}
+@font-face {
+   font-family: 'OpenSans-Regular';
+   src: url(../fonts/OpenSans-Regular.ttf)format('truetype');
+}
+@font-face {
+   font-family: 'TitilliumWeb-Regular';
+   src: url(../fonts/TitilliumWeb-Regular.ttf) format('truetype');
+}
+@font-face {
+   font-family: 'TitilliumWeb-Bold';
+   src: url(../fonts/TitilliumWeb-Bold.ttf) format('truetype');
+}
+h1.b1,h2.b2,h3.b3 {
+  margin-bottom:25px;
+  display: block;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	text-decoration:none;
+}
+.row{
+	margin:0;
+}	
+a#toTop{
+  margin-top: 0;
+}
+.breadcrumb{
+	margin:2em 0;
+	text-align:left;
+}
+/*-- header_top --*/
+.top-header{
+	background: #7D7979 none repeat scroll 0% 0%;
+	position: relative;
+	padding:1em 0;
+}
+.logo{
+	position:absolute;
+	top:0;
+	z-index:999;
+	margin-top: -30px;
+	width: 175px;
+    height: 188px;
+}
+.glyphicon-road:before{
+	color:#fff;
+	font-size:0.7em;
+	margin-right:5px;
+}
+.logo a{
+  background-image: url("../images/emblema.png") cover center center;
+  padding: 1.6em 0.7em;
+  display:inline-block;
+  width: 177px;
+}
+
+.emblema img{
+  width: 140px;
+  height: 200px;
+  margin-left: 0px;
+}
+
+.emblema_londra img{
+  width: 170px;
+  height: 200px;
+  margin-left: 0px;
+}
+
+.emblema_roma img{
+ width: 140px;
+height: 210px;
+margin-top: 10px;
+}
+
+ul.nav.navbar-nav li a{
+	padding: 31px 16px;
+	font-family: "TitilliumWeb-Regular";
+	font-size: 15px;
+	color: #333;
+	font-weight: bold;	
+	
+}
+ul.nav.navbar-nav li a:hover{
+	color: #337AB7;
+}
+
+li:hover{
+background-color:#E9E4E4;
+transition: all 0.5s ease-out;
+}
+
+ul.nav.navbar-nav li{
+	border-right:1px solid #e7e7e7;
+}
+.top-menu {
+    border-bottom: 1px solid #e7e7e7;
+}
+.navbar-default {
+    background-color: transparent;  
+    border-color: #FFFFFF;	
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color:#fd7364;
+    background-color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #fff!important;
+}
+.content.white {
+		background: #fff;
+		width:80%;
+		margin-left:23.8em;
+	}
+	.content.black {
+		background: #000;
+	}
+	.content.black p {
+		color: #999;
+	}
+	.content.black p a {
+		color: #08c;
+	}
+
+
+	@media (max-width: 480px) {
+		.content {
+			width: 90%;
+			margin: 50px auto;
+			padding: 10px;
+		}
+	}
+.navbar {
+    margin-bottom: 0px;
+}	
+
+.copywrite{
+	padding:1em 0;
+	text-align:center;
+	background: #474747;
+}
+
+.copywrite p {
+  color: #FFF9F9;;
+  line-height: 1.8em;
+  font-size:0.8em;
+}
+
+.copywrite p a{
+	color:#777;
+}
+
+.container2_madrid{
+  padding: 1.6em 0.7em;
+  width: 100%;
+  height:500px;
+  background:  url("../images/turist.jpeg") no-repeat scroll center center / cover;
+}
+
+.container2_paris{
+  padding: 1.6em 0.7em;
+  width: 100%;
+  height:500px;
+  background:  url("../images/par.jpg") no-repeat scroll center center / cover;
+}
+
+.container2_londra{
+  padding: 1.6em 0.7em;
+  width: 100%;
+  height:520px;
+  background:  url("../images/galerie12pll.jpg") no-repeat scroll center center / cover;
+}
+
+.container2_roma{
+  padding: 1.6em 0.7em;
+  width: 100%;
+  height:520px;
+  background:  url("../images/roma9.jpg") no-repeat scroll center center / cover;
+}
+
+.container2_madrid h5{
+    font-size: 100px;
+	float: right;
+	margin-right: 93px;
+	font-family: FontAwesome;
+	color: #F9F3B3;
+}
+
+.container2_londra h5{
+    font-size: 100px;
+	float: right;
+	margin-right: 93px;
+	font-family: FontAwesome;
+	color: #F9F3B3;
+}
+
+.container2_paris h5{
+    font-size: 100px;
+	float: right;
+	margin-right: 93px;
+	font-family: FontAwesome;
+	color: #F9F3B3;
+}
+
+.container2_roma h5{
+    font-size: 100px;
+	float: right;
+	margin-right: 93px;
+	font-family: FontAwesome;
+	color: #0b0b0b;
+margin-top: 80px;
+background: #bababa66;
+border-radius: 27px;
+}
+
+.apasat {
+	background-color:#E9E4E4
+	}
+	
+.container3 {
+   background: #F0F0F0 none repeat scroll 0% 0%;
+   height: 266px;
+   margin:0 auto;
+   max-width: 1200px;
+   padding-top: 30px;
+}
+
+.containerChat {
+   background: #F0F0F0 none repeat scroll 0% 0%;
+   height: 350px;
+   margin:0 auto;
+   max-width: 1200px;
+   padding-top: 30px;
+}
+
+
+.container3_roma {
+   background: #F0F0F0 none repeat scroll 0% 0%;
+   height: 100%;
+   margin:0 auto;
+   max-width: 1200px;
+   padding-top: 30px;
+}
+
+.container5{
+    background: #DEDEDE none repeat scroll 0% 0%;
+    margin: 0px auto;
+    text-align: center;
+    width: 1200px;
+}
+
+.container5_roma{
+    background: #DEDEDE none repeat scroll 0% 0%;
+    margin: 0px auto;
+    text-align: center;
+    width: 1200px;
+	margin-top: -46px;
+}
+	
+.container3 .col1_madrid {
+ background:  url("../images/turist1.jpg") no-repeat scroll center center / cover;
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+  margin-top: -3px;
+}
+
+.container3 .col1_paris{
+ background:  url("../images/turn.jpg") no-repeat scroll center center / cover;
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+  margin-top: -3px;
+}
+
+.container3 .col1_londra {
+ background:  url("../images/turnlondra.jpg") no-repeat scroll center center / cover;
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+  margin-top: -3px;
+}
+
+.container3_roma .col1_roma {
+ background:  url("../images/roma10.jpg") no-repeat scroll center center / cover;
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+  margin-top: -3px;
+}
+
+.container3 .col2 {
+  float: left;
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.container3_roma .col2_roma {
+  float: left;
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.container5 .col6_madrid {
+ background:  url("../images/turist2.jpg") no-repeat scroll center center / cover;
+  float: right;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+}
+
+.container5 .col6_paris {
+ background:  url("../images/arc.jpg") no-repeat scroll center center / cover;
+  float: right;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+}
+
+.container5 .col6_londra {
+ background:  url("../images/catlondra.jpg") no-repeat scroll center center / cover;
+  float: right;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+}
+
+.container5_roma .col6_roma {
+ background:  url("../images/roma11.jpeg") no-repeat scroll center center / cover;
+  float: right;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+}
+
+.container5 .col7 {
+  float: left;
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}   
+
+.container5_roma .col7_roma {
+  float: left;
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}  
+
+.container6{
+   text-align:center;
+   background: #F0F0F0 none repeat scroll 0% 0%;
+   height: 309px;
+   margin:0 auto;
+   max-width: 1200px;
+   padding-top: 30px;
+}
+
+.container6_roma{
+   text-align:center;
+   background: #F0F0F0 none repeat scroll 0% 0%;
+   height: 309px;
+   margin:0 auto;
+   max-width: 1200px;
+   padding-top: 30px;
+   height: 100%;
+}
+
+.container6 .col8 {
+  float: left;
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.container6_roma .col8_roma {
+  float: left;
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.container6 .col9_madrid {
+   background:  url("../images/turist3.jpg") no-repeat scroll center center / cover;
+  float: right;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+}  
+
+.container6 .col9_paris {
+   background:  url("../images/elize.jpg") no-repeat scroll center center / cover;
+  float: right;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+}  
+
+.container6 .col9_londra {
+   background:  url("../images/bigben.jpg") no-repeat scroll center center / cover;
+  float: right;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+} 
+
+.container6_roma .col9_roma {
+   background:  url("../images/roma12.jpg") no-repeat scroll center center / cover;
+  float: right;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 255px;
+  border-radius: 20px;
+}  
+
+.container6 .col9 p{
+   color:#000;
+   font-style:italic;
+   font-size:20px;
+   margin-top:5px;
+} 
+
+.container6_roma .col9_roma p{
+   color:#000;
+   font-style:italic;
+   font-size:20px;
+   margin-top:5px;
+} 
+
+.container7{
+   text-align:center;
+   background: #DEDEDE none repeat scroll 0% 0%;
+   height: 309px;
+   margin:0 auto;
+   max-width: 1200px;
+   padding-top: 30px;
+}
+
+.container7 .col10_madrid  {
+background: transparent url("../images/turist4.jpg") no-repeat scroll center center / cover;
+float: left;
+width: 33%;
+font-family: "Raleway",sans-serif;
+text-align: center;
+height: 272px;
+border-radius: 20px;
+margin-top: -11px;
+}
+
+.container7 .col10_paris {
+background: transparent url("../images/cat.jpg") no-repeat scroll center center / cover;
+float: left;
+width: 33%;
+font-family: "Raleway",sans-serif;
+text-align: center;
+height: 272px;
+border-radius: 20px;
+margin-top: -11px;
+}
+
+.container7 .col10_londra {
+background: transparent url("../images/londonr.jpg") no-repeat scroll center center / cover;
+float: left;
+width: 33%;
+font-family: "Raleway",sans-serif;
+text-align: center;
+height: 272px;
+border-radius: 20px;
+margin-top: -11px;
+}
+
+.container7 .col10_roma {
+background: transparent url("../images/roma13.jpg") no-repeat scroll center center / cover;
+float: left;
+width: 33%;
+font-family: "Raleway",sans-serif;
+text-align: center;
+height: 272px;
+border-radius: 20px;
+margin-top: -11px;
+}
+
+.container7 .col11 {
+  float: left;
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+} 
+
+
+.chat {
+	margin-top: 20px;
+    float: left;
+    height: 111 px;
+    line-height: 180px;
+    font-weight: bold;
+    letter-spacing: 2px;
+	color: #00c8ff;
+	font: italic bold 12px/30px Georgia, serif;
+}
+
